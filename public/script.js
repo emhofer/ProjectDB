@@ -62,7 +62,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Extract the project data associated with the clicked row
         const rowData = data[clickedRow.rowIndex - 1]; // Adjust index if there's a header row
-
+        const tableRows = table.querySelectorAll("tr");
+        tableRows.forEach((row) => (row.style.backgroundColor = ""));
+        clickedRow.style.backgroundColor = "#fff1dcaa";
         // Display additional project details in the project-details div
         buttonsDiv.innerHTML = `
           <button id="button-edit">Edit</button>
@@ -169,6 +171,9 @@ document.addEventListener("DOMContentLoaded", function () {
         if (response) {
           projectInfoDiv.innerHTML = "";
           buttonsDiv.innerHTML = "";
+          tableRows.forEach((row) => {
+            row.style.backgroundColor = "";
+          });
         } else {
         }
       }
@@ -181,6 +186,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const tableRows = table.querySelectorAll("tr");
       tableRows.forEach((row) => {
         row.classList.add("edit-mode");
+        row.style.backgroundColor = "";
       });
 
       buttonsDiv.innerHTML = `

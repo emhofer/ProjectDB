@@ -28,5 +28,10 @@
         "project-name": "The sixth one",
         "project-lead": "The boss",
         "project-status": "Finished"
+    },
+    {
+        "project-name": "The seventh one",
+        "project-lead": "The boss",
+        "project-status": "Finished"
     }
 ]
