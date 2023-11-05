@@ -1,0 +1,32 @@
+[
+    {
+        "project-name": "The first one",
+        "project-lead": "The boss",
+        "project-status": "Ongoing"
+    },
+    {
+        "project-name": "The second one",
+        "project-lead": "The specialist",
+        "project-status": "Finished"
+    },
+    {
+        "project-name": "The third one",
+        "project-lead": "The boss",
+        "project-status": "Ongoing"
+    },
+    {
+        "project-name": "The fourth one",
+        "project-lead": "The specialist",
+        "project-status": "Ongoing"
+    },
+    {
+        "project-name": "The fifth one",
+        "project-lead": "The specialist",
+        "project-status": "Finished"
+    },
+    {
+        "project-name": "The sixth one",
+        "project-lead": "The boss",
+        "project-status": "Finished"
+    }
+]
